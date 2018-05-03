@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dean's Red Drone</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+    <style type="text/css">
+      .hero-bkg-animated {
+        background: #111 url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dddddd' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat 0 0;
+
+        box-sizing: border-box;
+        padding-top: 5vh;
+        -webkit-animation: slide 20s linear infinite;
+      }
+
+      .hero-bkg-animated h1 {
+        font-family: sans-serif;
+      }
+
+      @-webkit-keyframes slide {
+          from { background-position: 0 0; }
+          to { background-position: -400px 0; }
+      }
+
+      .highlight {
+        background-color: #111;
+        padding: 7px;
+        /*background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);*/
+      }
+
+      .drone {
+        position: absolute;
+        margin-left: -25vw;
+
+      }
+
+      .pad {
+        padding-right: 10px;
+      }
+
+      .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        /*padding-top: 25px;*/
+        height: 0;
+      }
+      .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .back {
+        background-color: #111;
+      }
+
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#ff4136">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ff4136">
+  </head>
+  <body>
+    <section class="hero hero-bkg-animated is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-8-desktop is-offset-2-desktop">
+              <h1 class="title is-1 is-vcentered">
+                <span class="highlight">
+                  <span style="color: #ddd;">dean's</span>
+                  <span style="color: #FF4136;">red</span>
+                  <span style="color: #ddd;">drone</span>
+                </span>
+              </h1>
+            </div>
+            <div class="column">
+              
+              <div class="figure">
+              <img class="drone image is-5by3 is-hidden-mobile" src="assets/drone.png">
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- MAIN SECTION -->
+
+    <section class="section back">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-8-desktop is-offset-2-desktop"> <br>
+
+            <!-- CONTENT START -->
+<!-- 
+            <div id="preq" class="content">
+              <h1 class="title">Pre-Requirements</h1>
+              <h2 class="subtitle is-5">Download your Blockchain & IoT apps</h2>
+
+              You're about to experience the cutting edge combination of blockchain and IoT. (Heads up, there will be bugs!) Before you jump onto the NestEgg platform, be sure to equip yourself with an <strong>ethereum wallet</strong> and the <strong>door-unlocking app, noke</strong>. You'll need both of them to participate and make reservations.
+
+            </div> -->
+
+            <!-- CARD LEFT -->
+                <div class="columns is-vcentered">
+                  <div class="column is-one-quarter"> 
+                    <h1 class="title is-4">
+                      <span>
+                        <i class="fas fa-map-pin pad"></i> Belgium
+                      </span>
+                    </h1>
+                    <h2 class="subtitle is-6">
+                      <span>
+                        <a href="https://soundcloud.com/brunchcollect/bonuspoints">
+                          <i class="fas fa-headphones pad"></i> Cheese And Crepes
+                        </a>
+                      </span>
+                    </h2>        
+                  </div>
+                  <div class="column"> 
+                    <div class="videoWrapper">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2rzF2B2neBY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              <!-- // CARD LEFT -->
+
+              <!-- CARD RIGHT -->
+                <div class="columns is-vcentered">
+                  <div class="column is-three-quarters"> 
+                    <div class="videoWrapper">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ewd41Q9jOBs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <h1 class="title is-4">
+                      <span>
+                        <i class="fas fa-map-pin pad"></i> Zandvort
+                      </span>
+                    </h1>
+                    <h2 class="subtitle is-6">
+                      <span>
+                        <a href="https://soundcloud.com/autoworkshop/drake-gods-plan-autolaser-remix">
+                          <i class="fas fa-headphones pad"></i> God's Plan
+                        </a>
+                      </span>
+                    </h2>   
+                  </div>
+                </div>
+              <!-- // CARD RIGHT -->
+
+              <!-- CARD LEFT -->
+                  <div class="columns is-vcentered">
+                    <div class="column is-one-quarter"> 
+                      <h1 class="title is-4">
+                        <span>
+                          <i class="fas fa-map-pin pad"></i> Groningen
+                        </span>
+                      </h1>
+                      <h2 class="subtitle is-6">
+                        <span>
+                          <a href="https://soundcloud.com/the-radical-one/sets/mas-sofrito">
+                            <i class="fas fa-headphones pad"></i> Mas Sofrito
+                          </a>
+                        </span>
+                      </h2>        
+                    </div>
+                    <div class="column"> 
+                      <div class="videoWrapper">
+                      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ppVUD336VUI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                <!-- // CARD LEFT -->
+
+                <!-- CARD RIGHT -->
+                  <div class="columns is-vcentered">
+                    <div class="column is-three-quarters"> 
+                      <div class="videoWrapper">
+                      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pokT6ioCzRg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <h1 class="title is-4">
+                        <span>
+                          <i class="fas fa-map-pin pad"></i> Zandvoort
+                        </span>
+                      </h1>
+                      <h2 class="subtitle is-6">
+                        <span>
+                          <a href="https://soundcloud.com/bigwavecouchsurfer/good-feels">
+                            <i class="fas fa-headphones pad"></i> Good Feels
+                          </a>
+                        </span>
+                      </h2>   
+                    </div>
+                  </div>
+                <!-- // CARD RIGHT -->
+
+                <!-- CARD LEFT -->
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter"> 
+                        <h1 class="title is-4">
+                          <span>
+                            <i class="fas fa-map-pin pad"></i> Brightlands
+                          </span>
+                        </h1>
+                        <h2 class="subtitle is-6">
+                          <span>
+                            <a href="https://soundcloud.com/grrrreatdane/june-2nd-feat-king-henry">
+                              <i class="fas fa-headphones pad"></i> June 2nd
+                            </a>
+                          </span>
+                        </h2>        
+                      </div>
+                      <div class="column"> 
+                        <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T3J76rtG2mA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- // CARD LEFT -->
+
+              
+          <!-- // CONTENT END -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer hero-bkg-animated has-text-centered">
+      <div class="container">
+         <div class="columns">
+          <div class="column is-8-desktop is-offset-2-desktop">
+              <h2 class="highlight title is-5" style="color: #ddd;">
+                Cheers,<br> <a href="http://deanmasley.com">Dean</a>
+              </h2>
+              
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="assets/lib/main.js"></script>
+    <script type="text/javascript">
+      $('.smooth-goto').on('click', function() {  
+          $('html, body').animate({scrollTop: $(this.hash).offset().top - 50}, 1000);
+          return false;
+      });
+    </script>
+    <script type="text/javascript">
+         document.addEventListener('DOMContentLoaded', function () {
+
+           // Get all "navbar-burger" elements
+           var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+           // Check if there are any navbar burgers
+           if ($navbarBurgers.length > 0) {
+
+             // Add a click event on each of them
+             $navbarBurgers.forEach(function ($el) {
+               $el.addEventListener('click', function () {
+
+                 // Get the target from the "data-target" attribute
+                 var target = $el.dataset.target;
+                 var $target = document.getElementById(target);
+
+                 // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                 $el.classList.toggle('is-active');
+                 $target.classList.toggle('is-active');
+
+               });
+             });
+           }
+
+         });
+     </script>
+  </body>
+</html>
